@@ -9,6 +9,7 @@ router.get('/employees', (req, res) => {
     db.query(sql, (err, result) => {
         if (err) {
             res.status(400).json({ error: err.message });
+            return;
         } 
         res.json({
             message: 'success',
@@ -26,6 +27,7 @@ router.post('/employee', (req, res) => {
     db.query(sql, params, (err, result) => {
         if (err) {
             res.status(400).json({ error: err.message });
+            return;
         }
 
         res.json({
