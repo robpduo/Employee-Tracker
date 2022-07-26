@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const db = require('../../db/connection');
 
+// view all roles
 router.get('/roles', (req, res) => {
     const sql = 'SELECT * FROM role';
 
@@ -18,6 +19,7 @@ router.get('/roles', (req, res) => {
     });
 });
 
+// add role to database
 router.post('/role', (req, res) => {
     const sql = 'INSERT INTO role (title, salary, department_id) VALUES (?, ?, ?)';
     const params = [req.body.title, req.body.salary, req.body.department_id];
