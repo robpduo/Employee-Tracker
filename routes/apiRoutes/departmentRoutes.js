@@ -22,6 +22,7 @@ router.get('/departments', (req, res) => {
     });
 });
 
+//get a specific department name by id from the url
 router.get('/department/:id', (req, res) => {
     const sql = `SELECT * FROM department WHERE id = ?`;
     const params = [req.params.id];
@@ -36,6 +37,28 @@ router.get('/department/:id', (req, res) => {
             data: row
         });
     });
+});
+
+//add a department
+router.post('/department', (req, res) => {
+    const sql = `INSERT INTO department (name) VALUES (?)`;
+    const params = [req.body.name];
+
+    // check if name of the department has been added
+    if (req.body.name != null) {
+        db.query(sql, params, (err, result) => {
+            if (err) {
+                res.status(400).json('Add department failed!');
+            } else {
+                res.json({
+                    message: `Department: ${req.body.name} added!`,
+                });
+            }
+        });
+
+    } else {
+        res.status(400).json('No department name specified!');
+    }
 });
 
 module.exports = router;
