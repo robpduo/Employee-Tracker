@@ -32,3 +32,5 @@ This app is used to keep track of employee infomation within a company with mult
 5. Start up the server using `npm start`
 6. In a separate terminal `node app.js`
 
+## Usage
+
