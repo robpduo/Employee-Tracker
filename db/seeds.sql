@@ -6,6 +6,11 @@ VALUES
 
 INSERT INTO role (title, salary, department_id) 
 VALUES
-    ('ASSOCIATE', 25.50, 1),
-    ('CONTRACTOR', 45.40, 1),
-    ('MANAGER', 60.00, 1);
+    ('GAMER', 25.50, 1),
+    ('DESIGNER', 35.12, 1),
+    ('MANAGER', 60.00, 1),
+    ('VOCALIST', 25.50, 2),
+    ('COACH', 60.00, 2),
+    ('TWEETER', 15.50, 3),
+    ('INSTAGRANNY', 15.50, 3),
+    ('ADMIN', 30.35, 3);
