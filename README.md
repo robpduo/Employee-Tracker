@@ -24,5 +24,10 @@ This app is used to keep track of employee infomation within a company with mult
 <img width="717" alt="Screen Shot 2022-07-27 at 12 16 52 AM" src="https://user-images.githubusercontent.com/101683611/181161001-5924bff0-f73f-49d0-acdb-845c0070f0f4.png">
 
 ## To Run
-1. Git clone 
+1. Git clone https://github.com/robpduo/Employee-Tracker.git
+2. Within the root directory enter `npm install` into the terminal to download and install all the dependencies
+3. Install MySql lite and run the sql database using `mysql -u root -p`
+4. In the sql terminal enter `source db/db.sql`, `source db/schema.sql`, `source db/seeds.sql` to setup the database with initial entries (optional seeds.sql)
+5. Start up the server using `npm start`
+6. In a separate terminal `node app.js`
 
