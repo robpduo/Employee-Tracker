@@ -1,6 +1,7 @@
 # Employee-Tracker
 
 ## Link to the Video Demonstration
+https://drive.google.com/file/d/1V_EUPI99SN2dEtpo7dv-y6WcI-LlvpTs/view
 
 ## Description
 This app is used to keep track of employee infomation within a company with multiple departments. It provides a command line interface to retrieve and store data within a relational database
