@@ -11,6 +11,7 @@ This app is used to keep track of employee infomation within a company with mult
 
 ### Future Improvements
 - At the moment, users role do not correspond to the correct manager within the same department. The relationship tables could be improved such that users can only select managers within the same department
+- Decimal values not showing up within the terminal
 
 ## Technologies Used
 - JavaScript
