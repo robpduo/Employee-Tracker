@@ -22,8 +22,8 @@ router.get('/employees', (req, res) => {
 
 // used to add an employee
 router.post('/employee', (req, res) => {
-    const sql = 'INSERT INTO employee (first_name, last_name, role_id) VALUES (?, ?, ?)';
-    const params = [req.body.first_name, req.body.last_name, req.body.role_id];
+    const sql = 'INSERT INTO employee (first_name, last_name, role_id, manager_id) VALUES (?, ?, ?, ?)';
+    const params = [req.body.first_name, req.body.last_name, req.body.role_id, req.body.manager_id];
 
     db.query(sql, params, (err, result) => {
         if (err) {
