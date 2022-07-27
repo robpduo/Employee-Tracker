@@ -34,4 +34,25 @@ This app is used to keep track of employee infomation within a company with mult
 6. In a separate terminal `node app.js`
 
 ## Usage
+<img width="378" alt="Screen Shot 2022-07-27 at 1 38 19 PM" src="https://user-images.githubusercontent.com/101683611/181313123-e369b2d7-0b67-40a1-ace9-0a11df28f7d7.png">
+Main Menu Choices:
+  - Add Employee, Role, or Department
+  - View All Employees, Roles, or Departments
+  - Update Employee Role
+  - View Total Utilized Budget
+  - Quit
+
+<img width="452" alt="Screen Shot 2022-07-27 at 1 40 16 PM" src="https://user-images.githubusercontent.com/101683611/181313428-14e7e19f-e6c7-49d0-ad8a-16075ae9ed65.png"> </br>
+Viewing All Employees </br>
+
+<img width="409" alt="Screen Shot 2022-07-27 at 1 42 05 PM" src="https://user-images.githubusercontent.com/101683611/181313779-c680c936-ffc0-4e6e-939f-9fe69d006713.png"> </br>
+View All Roles </br>
+
+<img width="363" alt="Screen Shot 2022-07-27 at 1 42 53 PM" src="https://user-images.githubusercontent.com/101683611/181314312-3634f5a6-2d22-4e7f-ba7f-11d3d4904946.png"> </br>
+Viewing All Departments </br>
+
+
+<img width="376" alt="Screen Shot 2022-07-27 at 1 41 02 PM" src="https://user-images.githubusercontent.com/101683611/181313578-781d0d90-d89b-4f22-adf1-99fa1ed923f5.png"> </br>
+Viewing Total Utilized Budget
+
 
