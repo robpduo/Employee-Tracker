@@ -33,6 +33,8 @@ This app is used to keep track of employee infomation within a company with mult
 5. Start up the server using `npm start`
 6. In a separate terminal `node app.js`
 
+npm i node-fetch@2.6.1
+
 ## Usage
 <img width="378" alt="Screen Shot 2022-07-27 at 1 38 19 PM" src="https://user-images.githubusercontent.com/101683611/181313123-e369b2d7-0b67-40a1-ace9-0a11df28f7d7.png">
 Main Menu Choices:
